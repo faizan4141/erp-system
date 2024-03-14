@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# ERP System
+## Project Overview:
+The ERP System is a simplified interface designed to manage basic business operations efficiently. It consists of the following pages:
+- Dashboard: Provides an overview of key metrics and features.
+- Products Management: Allows for the management of product listings.
+- Orders Management: Facilitates viewing and handling orders.
+Optionally, the project may include:
+- Orders Calendar View: A calendar interface displaying orders based on their expected delivery dates.
+## Objectives:
+- Develop a user-friendly interface for managing key aspects of a business.
+- Utilize React for building modular components and managing application state.
+- Implement navigation between different sections of the ERP system using React Router.
+- Create a responsive design suitable for both desktop and mobile devices.
+## Assignment Details:
+### Dashboard:
+- Display key metrics or features.
+- Include links or buttons for quick navigation to other pages.
+### Products Management:
+- Present a list of products with details such as name, category, price, and stock quantity.
+- Enable functionalities to add, edit, and delete products.
+### Orders Management:
+- Show a list of orders with details like order ID, customer name, order date, and status.
+- Optionally allow viewing of order details, updating the order status, and deletion of orders.
+### Orders Calendar View (Optional):
+- Implement a calendar view displaying orders based on their expected delivery dates.
+- Provide the ability to click on a date to view all orders due for delivery that day.
+## Documentation:
+- Detailed instructions for running and using the front-end application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ERP System Frontend
+## Overview
+This is the front-end part of an ERP (Enterprise Resource Planning) system, designed to manage basic business operations efficiently. The system includes features such as a dashboard for an overview of key metrics, products management, orders management, and an optional orders calendar view.
+## Technologies Used
+- React: JavaScript library for building user interfaces.
+- React Router: Library for routing in React applications.
+- CSS: Styling language for designing the user interface.
+- Screenshots demonstrating the functionality of the website.
+## Installation
+1. Clone the repository:
+git clone <repository-url>
+2. Navigate to the project directory:
+  ```
+  cd erp-system
+  ```
+3. Install dependencies:
+  ```
+  npm install
+  ```
+## Usage
+1. Start the development server:
+  ```
+  npm start
+  ```
+2. Open your web browser and go to `http://localhost:3000` to view the application.
+## Features
+- **Dashboard:** Provides an overview of key metrics and quick navigation to other sections.
+- **Products Management:** Allows adding, editing, and deleting product listings.
+- **Orders Management:** Facilitates viewing, updating, and deleting orders.
+- **Orders Calendar View (Optional):** Displays orders based on their expected delivery dates.
+## Folder Structure
+```
+erp-system
+├── src
+│   ├── components         # Contains React components
+│   ├── css                # Contains CSS files for styling
+│   ├── App.js             # Main component for routing
+│   ├── index.js           # Entry point of the application
+│   └── ...                # Other files and folders
+|── public
+│   └── ...                # Public assets
+├── package.json           # Project dependencies and scripts
+└── README.md              # Project documentation
+```
+## Screenshots
+![Dashboard]
+![Alt text](../../../Pictures/Screenshots/Dashboard.png)
+![ProductsManagement]
+![Alt text](../../../Pictures/Screenshots/ProductsManagement.png)
+![OrdersManagement]
+![Alt text](../../../Pictures/Screenshots/OrdersManagment.png)
+![OrdersCalendarView]
+![Alt text](../../../Pictures/Screenshots/OrdersCalendarView.png)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+This project was created by - [Mohd Faizan] - [mohdfaizan857@gmail.com]
+## License
+This project is licensed under the [MIT License](LICENSE).
