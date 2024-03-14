@@ -73,13 +73,17 @@ erp-system
 ```
 ## Screenshots
 ![Dashboard]
-![Alt text](../../../Pictures/Screenshots/Dashboard.png)
+![Dashboard](https://github.com/faizan4141/erp-system/assets/130767852/4ef3646f-725d-4f2b-85fe-8f5b1289fd10)
+
 ![ProductsManagement]
-![Alt text](../../../Pictures/Screenshots/ProductsManagement.png)
+![ProductsManagement](https://github.com/faizan4141/erp-system/assets/130767852/44f19bed-0096-4c79-928c-36ddee3fc5b3)
+
 ![OrdersManagement]
-![Alt text](../../../Pictures/Screenshots/OrdersManagment.png)
+![OrdersManagment](https://github.com/faizan4141/erp-system/assets/130767852/7bd65edf-7822-4a24-9cd4-e15d426e2b14)
+
 ![OrdersCalendarView]
-![Alt text](../../../Pictures/Screenshots/OrdersCalendarView.png)
+![OrdersCalendarView](https://github.com/faizan4141/erp-system/assets/130767852/8688111b-2eec-433c-8d59-1f6afeb1ed54)
+
 
 ## Credits
 This project was created by - [Mohd Faizan] - [mohdfaizan857@gmail.com]
