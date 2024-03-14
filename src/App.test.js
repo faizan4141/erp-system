@@ -1,8 +1,19 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders App Component', () => {
+ const { getByText } = render(<App />);
+ const dashboardHeading = getByText('Dashboard');
+ const productsManagementButton = getByText('Products Management');
+ const ordersManagementButton = getByText('Orders Management');
+ const ordersCalendarViewButton = getByText('View Orders Calendar');
+
+ expect(dashboardHeading).toBeInTheDocument();
+
+ expect(productsManagementButton).toBeInTheDocument();
+
+ expect(ordersManagementButton).toBeInTheDocument();
+
+ expect(ordersCalendarViewButton).toBeInTheDocument();
+
 });
